@@ -214,6 +214,12 @@ footer{
     text-align: center;
 }
 
+.about {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
 @media (max-width: 768px) {
     .title{
         font-size: 23px;
