@@ -1,0 +1,156 @@
+body{
+    font-size: 17px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header{
+    
+}
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+
+}
+.nav img{
+    width: 150px;
+    height: 100px;
+}
+
+.nav-list ul{
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+}
+
+.nav-list li{
+  display: grid;
+}
+
+.nav-list li:hover{
+    color: rgb(227, 196, 156);
+    border-radius: 2px;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+}
+
+.hero p{
+    margin-top: 180px;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.concept{
+    margin-top: 180px;
+    font-size: 30px;
+}
+
+.menu-top{
+    margin-top: 180px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.menu{
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    position: relative;
+}
+
+.level{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+}
+
+.gallery{
+    margin-top: 180px;
+}
+
+.gallery img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.staff{
+    margin: 180px;
+}
+
+.staff-top{
+    margin: 180px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.staff img{
+    width: 250px;
+    height: 250px;
+}
+
+.staff-name{
+    font-size: 20px;
+}
+.staff-strongpoint{
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.tenpo{
+    margin-top: 180px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.shop-info{
+    list-style: none;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.shop-info li{
+    margin-bottom: 30px;
+}
+
+.shop-info iframe{
+    width: auto;
+    height: auto;
+}
+
+.contact{
+    margin: 100px;
+}
+
+.contact button{
+    font-size: 20px;
+    transition: 0.2;
+}
+
+.contact button :hover{
+    color: rgb(192, 192, 192);
+}

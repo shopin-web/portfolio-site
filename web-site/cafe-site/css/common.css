@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    background-image:url(../images/brown0065.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.title{
+    color:rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family:serif;
+}
+
+.title h1{
+    background-color:rgb(74, 31, 11);
+    display: inline-block;
+    padding: 10px 30px;
+    corner-right-shape: 20px;
+    border-radius: 10px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main{
+    flex: 1;
+}
+
+.shop-logo{
+    text-align: center;
+}
+.shop-logo img{
+    border-radius: 12px;
+    
+}
+
+header img{
+    width: 200px;
+    height: auto;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    background-color:rgb(74, 31, 11);
+    display: flex;
+    transition: 0.3s;
+    justify-content: space-between;
+} 
+
+.menu li{
+    flex: 1;
+    text-align: center;
+}
+
+.menu a{
+    display: block;
+    padding: 14px 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration-line: none;
+    line-height: 1;
+}
+
+.menu li:hover{
+    transform:scale(1.05);
+    background-color: rgb(229, 202, 166);
+}
+
+.menu a:hover{
+    color: black;
+}
+
+footer{
+
+    width:100%;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* スマホ用 */
+@media(max-width:768px){
+
+.menu{
+    flex-direction: column;
+    
+}
+
+.menu {
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container{
+    padding: 0 15px;
+}
+
+}
+
+@media(max-width:320px){
+.title h1{
+    font-size: 25px;
+}
+}
